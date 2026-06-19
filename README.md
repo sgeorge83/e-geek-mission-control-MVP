@@ -2,7 +2,7 @@
 
 Read-only status dashboard for **E-GEEK Creations** automations — APIs, PWAs, GitHub Actions workflows, and protected endpoints.
 
-**Live dashboard:** https://sgeorge83.github.io/e-geek-mission-control/
+**Live dashboard:** https://sgeorge83.github.io/e-geek-mission-control-MVP/
 
 ---
 
@@ -59,7 +59,7 @@ Repo → **Settings → Pages** → Source: **GitHub Actions**
 1. [GitHub → Settings → Developer settings → Fine-grained tokens](https://github.com/settings/tokens?type=beta)
 2. Repository access: select all E-GEEK repos you want monitored (or all repositories)
 3. Permissions: **Actions → Read-only**, **Metadata → Read**
-4. Add as repo secret `GH_STATUS_TOKEN` in **e-geek-mission-control**
+4. Add as repo secret `GH_STATUS_TOKEN` in **e-geek-mission-control-MVP**
 
 Public repos work without the token for workflow status. Private repos show **unknown** until the token is set.
 
