@@ -1,0 +1,10 @@
+{
+  "name": "e-geek-mission-control",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "E-GEEK Mission Control — automation status dashboard",
+  "scripts": {
+    "collect": "node scripts/collect-status.mjs"
+  }
+}

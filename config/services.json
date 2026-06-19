@@ -1,0 +1,154 @@
+{
+  "owner": "sgeorge83",
+  "timezone": "Asia/Dubai",
+  "apis": [
+    {
+      "id": "bible-morning",
+      "name": "Bible Widget API — Morning Verse",
+      "group": "E-GEEK APIs",
+      "url": "https://bible-widget-backend.vercel.app/api/morning",
+      "type": "json",
+      "expectFields": ["reference", "esv_text"],
+      "link": "https://bible-widget-backend.vercel.app/api/morning",
+      "repo": "bible-widget-backend-clone"
+    },
+    {
+      "id": "bible-rss",
+      "name": "Bible Widget API — RSS Feed",
+      "group": "E-GEEK APIs",
+      "url": "https://bible-widget-backend.vercel.app/api/rss/morning",
+      "type": "rss",
+      "link": "https://bible-widget-backend.vercel.app/api/rss/morning",
+      "repo": "bible-widget-backend-clone"
+    },
+    {
+      "id": "urdu-votd",
+      "name": "Urdu Bible API — Verse of the Day",
+      "group": "E-GEEK APIs",
+      "url": "https://urdu-bible-api.vercel.app/votd",
+      "type": "json",
+      "expectFields": ["reference"],
+      "link": "https://urdu-bible-api.vercel.app/votd",
+      "repo": "urdu-bible-api"
+    },
+    {
+      "id": "urdu-votd-bilingual",
+      "name": "Urdu Bible API — Bilingual VOTD",
+      "group": "E-GEEK APIs",
+      "url": "https://urdu-bible-api.vercel.app/votd?include_english=true",
+      "type": "json",
+      "expectFields": ["reference"],
+      "link": "https://urdu-bible-api.vercel.app/docs",
+      "repo": "urdu-bible-api"
+    }
+  ],
+  "sites": [
+    {
+      "id": "dailybread-pwa",
+      "name": "Daily Bread PWA",
+      "group": "E-GEEK Sites",
+      "url": "https://sgeorge83.github.io/dailybread-pwa/",
+      "link": "https://sgeorge83.github.io/dailybread-pwa/",
+      "repo": "dailybread-pwa"
+    },
+    {
+      "id": "votd-urdu-english",
+      "name": "VOTD Urdu & English PWA",
+      "group": "E-GEEK Sites",
+      "url": "https://sgeorge83.github.io/VOTD-URDU-ENGLISH/",
+      "link": "https://sgeorge83.github.io/VOTD-URDU-ENGLISH/",
+      "repo": "VOTD-URDU-ENGLISH"
+    }
+  ],
+  "workflows": [
+    {
+      "id": "votd-ig-post",
+      "name": "VOTD-IG — Daily Instagram/Facebook Post",
+      "group": "Social Automation",
+      "repo": "VOTD-IG",
+      "workflowFile": "post-verse.yml",
+      "link": "https://github.com/sgeorge83/VOTD-IG/actions/workflows/post-verse.yml",
+      "scheduleHint": "Daily ~9:35 AM UAE (cron-job.org)"
+    },
+    {
+      "id": "dailybread-pages",
+      "name": "Daily Bread — GitHub Pages Deploy",
+      "group": "Deployments",
+      "repo": "dailybread-pwa",
+      "workflowFile": "pages.yml",
+      "link": "https://github.com/sgeorge83/dailybread-pwa/actions/workflows/pages.yml"
+    },
+    {
+      "id": "votd-urdu-pages",
+      "name": "VOTD Urdu/English — GitHub Pages Deploy",
+      "group": "Deployments",
+      "repo": "VOTD-URDU-ENGLISH",
+      "workflowFile": "pages.yml",
+      "link": "https://github.com/sgeorge83/VOTD-URDU-ENGLISH/actions/workflows/pages.yml"
+    },
+    {
+      "id": "bible-widget-build",
+      "name": "Bible Widget App — Android Build",
+      "group": "Mobile Builds",
+      "repo": "BibleWidgetApp",
+      "workflowFile": "main.yml",
+      "link": "https://github.com/sgeorge83/BibleWidgetApp/actions/workflows/main.yml"
+    },
+    {
+      "id": "bible-themes-build",
+      "name": "E-GEEK Bible Themes — Android Build",
+      "group": "Mobile Builds",
+      "repo": "e-geek-bible-themes",
+      "workflowFile": "android-build.yml",
+      "link": "https://github.com/sgeorge83/e-geek-bible-themes/actions/workflows/android-build.yml"
+    },
+    {
+      "id": "pinknubes-apk",
+      "name": "PinkNubes — Release APK Build",
+      "group": "Mobile Builds",
+      "repo": "PinkNubes",
+      "workflowFile": "build-apk.yml",
+      "link": "https://github.com/sgeorge83/PinkNubes/actions/workflows/build-apk.yml"
+    },
+    {
+      "id": "lead-engine",
+      "name": "LEAD-ENGINE — Generate Leads",
+      "group": "HR Automation",
+      "repo": "LEAD-ENGINE",
+      "workflowFile": "generate-leads.yml",
+      "link": "https://github.com/sgeorge83/LEAD-ENGINE/actions/workflows/generate-leads.yml",
+      "scheduleHint": "Manual (workflow_dispatch)"
+    },
+    {
+      "id": "cvbuilder-ci",
+      "name": "CV Builder — CI",
+      "group": "Web Apps",
+      "repo": "cvbuilder",
+      "workflowFile": "ci.yml",
+      "link": "https://github.com/sgeorge83/cvbuilder/actions/workflows/ci.yml"
+    },
+    {
+      "id": "gnome-schedule-test",
+      "name": "Gnome Schedule — Tests",
+      "group": "Desktop Tools",
+      "repo": "gnome-schedule",
+      "workflowFile": "test.yml",
+      "link": "https://github.com/sgeorge83/gnome-schedule/actions/workflows/test.yml"
+    }
+  ],
+  "optionalApis": [
+    {
+      "id": "bible-cron-refresh",
+      "name": "Bible Widget API — Cron Refresh (auth)",
+      "group": "Protected APIs",
+      "url": "https://bible-widget-backend.vercel.app/api/cron/refresh-votd",
+      "type": "protected",
+      "secretEnv": "BIBLE_CRON_SECRET",
+      "authHeader": "Authorization",
+      "authPrefix": "Bearer ",
+      "link": "https://github.com/sgeorge83/bible-widget-backend-clone",
+      "repo": "bible-widget-backend-clone",
+      "note": "Set BIBLE_CRON_SECRET in repo secrets to monitor this endpoint"
+    }
+  ]
+}

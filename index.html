@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="E-GEEK Mission Control — status dashboard for automations, APIs, and workflows" />
+  <title>E-GEEK Mission Control</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-badge">E-GEEK</span>
+        <h1>Mission Control</h1>
+        <p class="subtitle">Automation &amp; API health — read-only status board</p>
+      </div>
+      <div class="header-meta">
+        <div class="meta-pill" id="overall-pill">
+          <span class="dot"></span>
+          <span id="overall-label">Loading…</span>
+        </div>
+        <p class="last-updated" id="last-updated">Checking status…</p>
+        <button type="button" class="btn-refresh" id="refresh-btn" title="Reload status data">Refresh</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="stats-row" id="stats-row" aria-label="Summary counts"></section>
+    <section class="groups" id="groups" aria-live="polite"></section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Status collected by
+      <a href="https://github.com/sgeorge83/e-geek-mission-control/actions" target="_blank" rel="noopener">GitHub Actions</a>
+      every hour. Private repo workflows need
+      <code>GH_STATUS_TOKEN</code> in repo secrets.
+    </p>
+    <p class="footer-note">
+      <a href="https://github.com/sgeorge83/e-geek-mission-control" target="_blank" rel="noopener">Source on GitHub</a>
+      · Developed by <a href="https://github.com/sgeorge83" target="_blank" rel="noopener">E-GEEK Creations</a>
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
