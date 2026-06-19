@@ -1,11 +1,320 @@
 {
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "dubaiDate": "—",
+  "generatedAt": "2026-06-19T15:05:33.797Z",
+  "dubaiDate": "2026-06-19",
   "timezone": "Asia/Dubai",
-  "tokenConfigured": false,
+  "tokenConfigured": true,
   "summary": {
-    "overall": "unknown",
-    "counts": { "healthy": 0, "unhealthy": 0, "unknown": 0, "skipped": 0 }
+    "overall": "degraded",
+    "counts": {
+      "healthy": 15,
+      "unhealthy": 0,
+      "unknown": 1,
+      "skipped": 0
+    }
   },
-  "items": []
+  "items": [
+    {
+      "id": "bible-morning",
+      "name": "Bible Widget API — Morning Verse",
+      "group": "E-GEEK APIs",
+      "kind": "api",
+      "link": "https://bible-widget-backend.vercel.app/api/morning",
+      "repo": "bible-widget-backend-clone",
+      "checkedAt": "2026-06-19T15:05:30.624Z",
+      "latencyMs": 109,
+      "httpStatus": 200,
+      "status": "healthy",
+      "message": "OK",
+      "summary": {
+        "reference": "Proverbs 26:20",
+        "generatedAt": "2026-06-19T05:00:05.104Z",
+        "cached": true
+      }
+    },
+    {
+      "id": "bible-rss",
+      "name": "Bible Widget API — RSS Feed",
+      "group": "E-GEEK APIs",
+      "kind": "api",
+      "link": "https://bible-widget-backend.vercel.app/api/rss/morning",
+      "repo": "bible-widget-backend-clone",
+      "checkedAt": "2026-06-19T15:05:30.686Z",
+      "latencyMs": 51,
+      "httpStatus": 200,
+      "status": "healthy",
+      "message": "RSS OK"
+    },
+    {
+      "id": "urdu-votd",
+      "name": "Urdu Bible API — Verse of the Day",
+      "group": "E-GEEK APIs",
+      "kind": "api",
+      "link": "https://urdu-bible-api.vercel.app/votd",
+      "repo": "urdu-bible-api",
+      "checkedAt": "2026-06-19T15:05:30.687Z",
+      "latencyMs": 2136,
+      "httpStatus": 200,
+      "status": "healthy",
+      "message": "OK",
+      "summary": {
+        "reference": {
+          "english": "Proverbs 26:20",
+          "book_id": 20,
+          "book_name_english": "Proverbs",
+          "book_name_urdu": "امثال",
+          "chapter": 26,
+          "verses": [
+            20
+          ]
+        },
+        "date": "2026-06-19"
+      }
+    },
+    {
+      "id": "urdu-votd-bilingual",
+      "name": "Urdu Bible API — Bilingual VOTD",
+      "group": "E-GEEK APIs",
+      "kind": "api",
+      "link": "https://urdu-bible-api.vercel.app/docs",
+      "repo": "urdu-bible-api",
+      "checkedAt": "2026-06-19T15:05:30.689Z",
+      "latencyMs": 2224,
+      "httpStatus": 200,
+      "status": "healthy",
+      "message": "OK",
+      "summary": {
+        "reference": {
+          "english": "Proverbs 26:20",
+          "book_id": 20,
+          "book_name_english": "Proverbs",
+          "book_name_urdu": "امثال",
+          "chapter": 26,
+          "verses": [
+            20
+          ]
+        },
+        "date": "2026-06-19"
+      }
+    },
+    {
+      "id": "dailybread-pwa",
+      "name": "Daily Bread PWA",
+      "group": "E-GEEK Sites",
+      "kind": "site",
+      "link": "https://sgeorge83.github.io/dailybread-pwa/",
+      "repo": "dailybread-pwa",
+      "checkedAt": "2026-06-19T15:05:32.914Z",
+      "latencyMs": 125,
+      "httpStatus": 200,
+      "status": "healthy",
+      "message": "Site reachable"
+    },
+    {
+      "id": "votd-urdu-english",
+      "name": "VOTD Urdu & English PWA",
+      "group": "E-GEEK Sites",
+      "kind": "site",
+      "link": "https://sgeorge83.github.io/VOTD-URDU-ENGLISH/",
+      "repo": "VOTD-URDU-ENGLISH",
+      "checkedAt": "2026-06-19T15:05:32.915Z",
+      "latencyMs": 118,
+      "httpStatus": 200,
+      "status": "healthy",
+      "message": "Site reachable"
+    },
+    {
+      "id": "bible-cron-refresh",
+      "name": "Bible Widget API — Cron Refresh (auth)",
+      "group": "Protected APIs",
+      "kind": "protected-api",
+      "link": "https://github.com/sgeorge83/bible-widget-backend-clone",
+      "repo": "bible-widget-backend-clone",
+      "checkedAt": "2026-06-19T15:05:33.041Z",
+      "status": "unknown",
+      "message": "Secret BIBLE_CRON_SECRET not configured",
+      "note": "Set BIBLE_CRON_SECRET in repo secrets to monitor this endpoint"
+    },
+    {
+      "id": "votd-ig-post",
+      "name": "VOTD-IG — Daily Instagram/Facebook Post",
+      "group": "Social Automation",
+      "kind": "workflow",
+      "link": "https://github.com/sgeorge83/VOTD-IG/actions/workflows/post-verse.yml",
+      "repo": "VOTD-IG",
+      "checkedAt": "2026-06-19T15:05:33.041Z",
+      "status": "healthy",
+      "message": "Last run succeeded",
+      "lastRun": {
+        "id": 27819795833,
+        "event": "schedule",
+        "status": "completed",
+        "conclusion": "success",
+        "createdAt": "2026-06-19T10:17:13Z",
+        "updatedAt": "2026-06-19T10:17:21Z",
+        "htmlUrl": "https://github.com/sgeorge83/VOTD-IG/actions/runs/27819795833"
+      },
+      "scheduleHint": "Daily ~9:35 AM UAE (cron-job.org)"
+    },
+    {
+      "id": "dailybread-pages",
+      "name": "Daily Bread — GitHub Pages Deploy",
+      "group": "Deployments",
+      "kind": "workflow",
+      "link": "https://github.com/sgeorge83/dailybread-pwa/actions/workflows/pages.yml",
+      "repo": "dailybread-pwa",
+      "checkedAt": "2026-06-19T15:05:33.042Z",
+      "status": "healthy",
+      "message": "Last run succeeded",
+      "lastRun": {
+        "id": 27740561918,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "createdAt": "2026-06-18T06:14:05Z",
+        "updatedAt": "2026-06-18T06:14:24Z",
+        "htmlUrl": "https://github.com/sgeorge83/dailybread-pwa/actions/runs/27740561918"
+      }
+    },
+    {
+      "id": "votd-urdu-pages",
+      "name": "VOTD Urdu/English — GitHub Pages Deploy",
+      "group": "Deployments",
+      "kind": "workflow",
+      "link": "https://github.com/sgeorge83/VOTD-URDU-ENGLISH/actions/workflows/pages.yml",
+      "repo": "VOTD-URDU-ENGLISH",
+      "checkedAt": "2026-06-19T15:05:33.043Z",
+      "status": "healthy",
+      "message": "Last run succeeded",
+      "lastRun": {
+        "id": 27670245816,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "createdAt": "2026-06-17T06:28:27Z",
+        "updatedAt": "2026-06-17T06:28:44Z",
+        "htmlUrl": "https://github.com/sgeorge83/VOTD-URDU-ENGLISH/actions/runs/27670245816"
+      }
+    },
+    {
+      "id": "bible-widget-build",
+      "name": "Bible Widget App — Android Build",
+      "group": "Mobile Builds",
+      "kind": "workflow",
+      "link": "https://github.com/sgeorge83/BibleWidgetApp/actions/workflows/main.yml",
+      "repo": "BibleWidgetApp",
+      "checkedAt": "2026-06-19T15:05:33.044Z",
+      "status": "healthy",
+      "message": "Last run succeeded",
+      "lastRun": {
+        "id": 27090899174,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "createdAt": "2026-06-07T11:13:19Z",
+        "updatedAt": "2026-06-07T11:14:36Z",
+        "htmlUrl": "https://github.com/sgeorge83/BibleWidgetApp/actions/runs/27090899174"
+      }
+    },
+    {
+      "id": "bible-themes-build",
+      "name": "E-GEEK Bible Themes — Android Build",
+      "group": "Mobile Builds",
+      "kind": "workflow",
+      "link": "https://github.com/sgeorge83/e-geek-bible-themes/actions/workflows/android-build.yml",
+      "repo": "e-geek-bible-themes",
+      "checkedAt": "2026-06-19T15:05:33.045Z",
+      "status": "healthy",
+      "message": "Last run succeeded",
+      "lastRun": {
+        "id": 27087608679,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "createdAt": "2026-06-07T08:39:31Z",
+        "updatedAt": "2026-06-07T08:43:42Z",
+        "htmlUrl": "https://github.com/sgeorge83/e-geek-bible-themes/actions/runs/27087608679"
+      }
+    },
+    {
+      "id": "pinknubes-apk",
+      "name": "PinkNubes — Release APK Build",
+      "group": "Mobile Builds",
+      "kind": "workflow",
+      "link": "https://github.com/sgeorge83/PinkNubes/actions/workflows/build-apk.yml",
+      "repo": "PinkNubes",
+      "checkedAt": "2026-06-19T15:05:33.046Z",
+      "status": "healthy",
+      "message": "Last run succeeded",
+      "lastRun": {
+        "id": 27765414834,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "createdAt": "2026-06-18T14:09:36Z",
+        "updatedAt": "2026-06-18T14:16:47Z",
+        "htmlUrl": "https://github.com/sgeorge83/PinkNubes/actions/runs/27765414834"
+      }
+    },
+    {
+      "id": "lead-engine",
+      "name": "LEAD-ENGINE — Generate Leads",
+      "group": "HR Automation",
+      "kind": "workflow",
+      "link": "https://github.com/sgeorge83/LEAD-ENGINE/actions/workflows/generate-leads.yml",
+      "repo": "LEAD-ENGINE",
+      "checkedAt": "2026-06-19T15:05:33.047Z",
+      "status": "healthy",
+      "message": "Last run succeeded",
+      "lastRun": {
+        "id": 27692550436,
+        "event": "workflow_dispatch",
+        "status": "completed",
+        "conclusion": "success",
+        "createdAt": "2026-06-17T13:29:26Z",
+        "updatedAt": "2026-06-17T13:32:32Z",
+        "htmlUrl": "https://github.com/sgeorge83/LEAD-ENGINE/actions/runs/27692550436"
+      },
+      "scheduleHint": "Manual (workflow_dispatch)"
+    },
+    {
+      "id": "cvbuilder-ci",
+      "name": "CV Builder — CI",
+      "group": "Web Apps",
+      "kind": "workflow",
+      "link": "https://github.com/sgeorge83/cvbuilder/actions/workflows/ci.yml",
+      "repo": "cvbuilder",
+      "checkedAt": "2026-06-19T15:05:33.048Z",
+      "status": "healthy",
+      "message": "Last run succeeded",
+      "lastRun": {
+        "id": 27751311987,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "createdAt": "2026-06-18T09:51:31Z",
+        "updatedAt": "2026-06-18T09:51:50Z",
+        "htmlUrl": "https://github.com/sgeorge83/cvbuilder/actions/runs/27751311987"
+      }
+    },
+    {
+      "id": "gnome-schedule-test",
+      "name": "Gnome Schedule — Tests",
+      "group": "Desktop Tools",
+      "kind": "workflow",
+      "link": "https://github.com/sgeorge83/gnome-schedule/actions/workflows/test.yml",
+      "repo": "gnome-schedule",
+      "checkedAt": "2026-06-19T15:05:33.048Z",
+      "status": "healthy",
+      "message": "Last run succeeded",
+      "lastRun": {
+        "id": 27352366728,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "createdAt": "2026-06-11T14:01:58Z",
+        "updatedAt": "2026-06-11T14:03:04Z",
+        "htmlUrl": "https://github.com/sgeorge83/gnome-schedule/actions/runs/27352366728"
+      }
+    }
+  ]
 }
