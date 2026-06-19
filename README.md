@@ -43,9 +43,16 @@ flowchart LR
 
 ## One-time GitHub setup
 
-### 1. Enable GitHub Pages
+### 1. Enable GitHub Pages (one-time, ~30 seconds)
 
-Repo → **Settings → Pages** → Source: **GitHub Actions**
+Repo → **Settings → Pages** → **Build and deployment**:
+
+- **Source:** Deploy from a branch
+- **Branch:** `gh-pages` → `/ (root)` → **Save**
+
+The deploy workflow already publishes to `gh-pages` and collects fresh status on every push. After enabling Pages, the live URL is:
+
+**https://sgeorge83.github.io/e-geek-mission-control-MVP/**
 
 ### 2. Add secrets (recommended)
 
