@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T04:38:05.706Z",
+  "generatedAt": "2026-06-24T08:34:39.751Z",
   "dubaiDate": "2026-06-24",
   "timezone": "Asia/Dubai",
   "tokenConfigured": true,
@@ -20,14 +20,14 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-06-24T04:38:00.623Z",
-      "latencyMs": 923,
+      "checkedAt": "2026-06-24T08:34:36.623Z",
+      "latencyMs": 1122,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
-        "reference": "1 Timothy 6:6",
-        "generatedAt": "2026-06-23T05:00:07.508Z",
+        "reference": "Psalms 37:1",
+        "generatedAt": "2026-06-24T05:00:11.886Z",
         "cached": true
       }
     },
@@ -38,8 +38,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/rss/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-06-24T04:38:00.682Z",
-      "latencyMs": 815,
+      "checkedAt": "2026-06-24T08:34:36.679Z",
+      "latencyMs": 412,
       "httpStatus": 200,
       "status": "healthy",
       "message": "RSS OK"
@@ -51,20 +51,21 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/votd",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-06-24T04:38:00.683Z",
-      "latencyMs": 4492,
+      "checkedAt": "2026-06-24T08:34:36.680Z",
+      "latencyMs": 2243,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "1 Timothy 6:6",
-          "book_id": 54,
-          "book_name_english": "1 Timothy",
-          "book_name_urdu": "۱-تیمُتھیُس",
-          "chapter": 6,
+          "english": "Psalms 37:1-2",
+          "book_id": 19,
+          "book_name_english": "Psalms",
+          "book_name_urdu": "زبور",
+          "chapter": 37,
           "verses": [
-            6
+            1,
+            2
           ]
         },
         "date": "2026-06-24"
@@ -77,20 +78,21 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/docs",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-06-24T04:38:00.685Z",
-      "latencyMs": 4491,
+      "checkedAt": "2026-06-24T08:34:36.682Z",
+      "latencyMs": 2242,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "1 Timothy 6:6",
-          "book_id": 54,
-          "book_name_english": "1 Timothy",
-          "book_name_urdu": "۱-تیمُتھیُس",
-          "chapter": 6,
+          "english": "Psalms 37:1-2",
+          "book_id": 19,
+          "book_name_english": "Psalms",
+          "book_name_urdu": "زبور",
+          "chapter": 37,
           "verses": [
-            6
+            1,
+            2
           ]
         },
         "date": "2026-06-24"
@@ -103,8 +105,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/dailybread-pwa/",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-06-24T04:38:05.176Z",
-      "latencyMs": 99,
+      "checkedAt": "2026-06-24T08:34:38.925Z",
+      "latencyMs": 193,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -116,8 +118,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/VOTD-URDU-ENGLISH/",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-06-24T04:38:05.177Z",
-      "latencyMs": 71,
+      "checkedAt": "2026-06-24T08:34:38.926Z",
+      "latencyMs": 194,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -129,7 +131,7 @@
       "kind": "protected-api",
       "link": "https://github.com/sgeorge83/bible-widget-backend-clone",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-06-24T04:38:05.276Z",
+      "checkedAt": "2026-06-24T08:34:39.122Z",
       "status": "unknown",
       "message": "Secret BIBLE_CRON_SECRET not configured",
       "note": "Set BIBLE_CRON_SECRET in repo secrets to monitor this endpoint"
@@ -141,17 +143,17 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-IG/actions/workflows/post-verse.yml",
       "repo": "VOTD-IG",
-      "checkedAt": "2026-06-24T04:38:05.276Z",
+      "checkedAt": "2026-06-24T08:34:39.122Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
-        "id": 28016304130,
-        "event": "schedule",
+        "id": 28077602766,
+        "event": "repository_dispatch",
         "status": "completed",
         "conclusion": "success",
-        "createdAt": "2026-06-23T09:27:22Z",
-        "updatedAt": "2026-06-23T09:27:34Z",
-        "htmlUrl": "https://github.com/sgeorge83/VOTD-IG/actions/runs/28016304130"
+        "createdAt": "2026-06-24T05:35:14Z",
+        "updatedAt": "2026-06-24T05:35:55Z",
+        "htmlUrl": "https://github.com/sgeorge83/VOTD-IG/actions/runs/28077602766"
       },
       "scheduleHint": "Daily ~9:35 AM UAE (cron-job.org)"
     },
@@ -162,7 +164,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/dailybread-pwa/actions/workflows/pages.yml",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-06-24T04:38:05.277Z",
+      "checkedAt": "2026-06-24T08:34:39.123Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -182,7 +184,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-URDU-ENGLISH/actions/workflows/pages.yml",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-06-24T04:38:05.278Z",
+      "checkedAt": "2026-06-24T08:34:39.124Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -202,7 +204,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/BibleWidgetApp/actions/workflows/main.yml",
       "repo": "BibleWidgetApp",
-      "checkedAt": "2026-06-24T04:38:05.279Z",
+      "checkedAt": "2026-06-24T08:34:39.125Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -222,7 +224,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/e-geek-bible-themes/actions/workflows/android-build.yml",
       "repo": "e-geek-bible-themes",
-      "checkedAt": "2026-06-24T04:38:05.280Z",
+      "checkedAt": "2026-06-24T08:34:39.127Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -242,7 +244,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/PinkNubes/actions/workflows/build-apk.yml",
       "repo": "PinkNubes",
-      "checkedAt": "2026-06-24T04:38:05.281Z",
+      "checkedAt": "2026-06-24T08:34:39.127Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -262,7 +264,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/LEAD-ENGINE/actions/workflows/generate-leads.yml",
       "repo": "LEAD-ENGINE",
-      "checkedAt": "2026-06-24T04:38:05.282Z",
+      "checkedAt": "2026-06-24T08:34:39.128Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -283,7 +285,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/cvbuilder/actions/workflows/ci.yml",
       "repo": "cvbuilder",
-      "checkedAt": "2026-06-24T04:38:05.283Z",
+      "checkedAt": "2026-06-24T08:34:39.129Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -303,7 +305,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/gnome-schedule/actions/workflows/test.yml",
       "repo": "gnome-schedule",
-      "checkedAt": "2026-06-24T04:38:05.284Z",
+      "checkedAt": "2026-06-24T08:34:39.130Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
