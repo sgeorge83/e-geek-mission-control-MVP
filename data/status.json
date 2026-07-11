@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T03:44:47.445Z",
+  "generatedAt": "2026-07-11T06:27:24.497Z",
   "dubaiDate": "2026-07-11",
   "timezone": "Asia/Dubai",
   "tokenConfigured": true,
@@ -20,14 +20,14 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-07-11T03:44:44.690Z",
-      "latencyMs": 469,
+      "checkedAt": "2026-07-11T06:27:21.626Z",
+      "latencyMs": 217,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
-        "reference": "1 John 1:8",
-        "generatedAt": "2026-07-10T05:04:29.017Z",
+        "reference": "1 John 2:15",
+        "generatedAt": "2026-07-11T05:01:58.472Z",
         "cached": true
       }
     },
@@ -38,8 +38,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/rss/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-07-11T03:44:44.742Z",
-      "latencyMs": 1066,
+      "checkedAt": "2026-07-11T06:27:21.689Z",
+      "latencyMs": 914,
       "httpStatus": 200,
       "status": "healthy",
       "message": "RSS OK"
@@ -51,21 +51,22 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/votd",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-07-11T03:44:44.743Z",
-      "latencyMs": 1887,
+      "checkedAt": "2026-07-11T06:27:21.690Z",
+      "latencyMs": 2058,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "1 John 1:8-9",
+          "english": "1 John 2:15-17",
           "book_id": 62,
           "book_name_english": "1 John",
           "book_name_urdu": "۱-یوحنا",
-          "chapter": 1,
+          "chapter": 2,
           "verses": [
-            8,
-            9
+            15,
+            16,
+            17
           ]
         },
         "date": "2026-07-11"
@@ -78,21 +79,22 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/docs",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-07-11T03:44:44.744Z",
-      "latencyMs": 1822,
+      "checkedAt": "2026-07-11T06:27:21.692Z",
+      "latencyMs": 2055,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "1 John 1:8-9",
+          "english": "1 John 2:15-17",
           "book_id": 62,
           "book_name_english": "1 John",
           "book_name_urdu": "۱-یوحنا",
-          "chapter": 1,
+          "chapter": 2,
           "verses": [
-            8,
-            9
+            15,
+            16,
+            17
           ]
         },
         "date": "2026-07-11"
@@ -105,8 +107,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/dailybread-pwa/",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-07-11T03:44:46.630Z",
-      "latencyMs": 291,
+      "checkedAt": "2026-07-11T06:27:23.752Z",
+      "latencyMs": 175,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -118,8 +120,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/VOTD-URDU-ENGLISH/",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-07-11T03:44:46.631Z",
-      "latencyMs": 284,
+      "checkedAt": "2026-07-11T06:27:23.753Z",
+      "latencyMs": 197,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -131,7 +133,7 @@
       "kind": "protected-api",
       "link": "https://github.com/sgeorge83/bible-widget-backend-clone",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-07-11T03:44:46.922Z",
+      "checkedAt": "2026-07-11T06:27:23.951Z",
       "status": "unknown",
       "message": "Secret BIBLE_CRON_SECRET not configured",
       "note": "Set BIBLE_CRON_SECRET in repo secrets to monitor this endpoint"
@@ -143,17 +145,17 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-IG/actions/workflows/post-verse.yml",
       "repo": "VOTD-IG",
-      "checkedAt": "2026-07-11T03:44:46.922Z",
+      "checkedAt": "2026-07-11T06:27:23.951Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
-        "id": 29082855296,
-        "event": "schedule",
+        "id": 29141449591,
+        "event": "repository_dispatch",
         "status": "completed",
         "conclusion": "success",
-        "createdAt": "2026-07-10T09:22:57Z",
-        "updatedAt": "2026-07-10T09:23:10Z",
-        "htmlUrl": "https://github.com/sgeorge83/VOTD-IG/actions/runs/29082855296"
+        "createdAt": "2026-07-11T05:35:13Z",
+        "updatedAt": "2026-07-11T05:35:47Z",
+        "htmlUrl": "https://github.com/sgeorge83/VOTD-IG/actions/runs/29141449591"
       },
       "scheduleHint": "Daily ~9:35 AM UAE (cron-job.org)"
     },
@@ -164,7 +166,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/dailybread-pwa/actions/workflows/pages.yml",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-07-11T03:44:46.923Z",
+      "checkedAt": "2026-07-11T06:27:23.952Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -184,7 +186,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-URDU-ENGLISH/actions/workflows/pages.yml",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-07-11T03:44:46.924Z",
+      "checkedAt": "2026-07-11T06:27:23.953Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -204,7 +206,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/BibleWidgetApp/actions/workflows/main.yml",
       "repo": "BibleWidgetApp",
-      "checkedAt": "2026-07-11T03:44:46.925Z",
+      "checkedAt": "2026-07-11T06:27:23.955Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -224,7 +226,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/e-geek-bible-themes/actions/workflows/android-build.yml",
       "repo": "e-geek-bible-themes",
-      "checkedAt": "2026-07-11T03:44:46.926Z",
+      "checkedAt": "2026-07-11T06:27:23.956Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -244,7 +246,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/PinkNubes/actions/workflows/build-apk.yml",
       "repo": "PinkNubes",
-      "checkedAt": "2026-07-11T03:44:46.927Z",
+      "checkedAt": "2026-07-11T06:27:23.957Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -264,7 +266,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/LEAD-ENGINE/actions/workflows/generate-leads.yml",
       "repo": "LEAD-ENGINE",
-      "checkedAt": "2026-07-11T03:44:46.928Z",
+      "checkedAt": "2026-07-11T06:27:23.958Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -285,7 +287,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/cvbuilder/actions/workflows/ci.yml",
       "repo": "cvbuilder",
-      "checkedAt": "2026-07-11T03:44:46.929Z",
+      "checkedAt": "2026-07-11T06:27:23.959Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -305,7 +307,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/gnome-schedule/actions/workflows/test.yml",
       "repo": "gnome-schedule",
-      "checkedAt": "2026-07-11T03:44:46.929Z",
+      "checkedAt": "2026-07-11T06:27:23.960Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
