@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T23:09:46.008Z",
+  "generatedAt": "2026-07-18T00:10:48.013Z",
   "dubaiDate": "2026-07-18",
   "timezone": "Asia/Dubai",
   "tokenConfigured": true,
@@ -20,8 +20,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-07-17T23:09:44.885Z",
-      "latencyMs": 251,
+      "checkedAt": "2026-07-18T00:10:45.149Z",
+      "latencyMs": 377,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
@@ -38,8 +38,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/rss/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-07-17T23:09:44.931Z",
-      "latencyMs": 207,
+      "checkedAt": "2026-07-18T00:10:45.210Z",
+      "latencyMs": 881,
       "httpStatus": 200,
       "status": "healthy",
       "message": "RSS OK"
@@ -51,8 +51,8 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/votd",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-07-17T23:09:44.932Z",
-      "latencyMs": 337,
+      "checkedAt": "2026-07-18T00:10:45.211Z",
+      "latencyMs": 2283,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
@@ -68,7 +68,7 @@
             4
           ]
         },
-        "date": "2026-07-17"
+        "date": "2026-07-18"
       }
     },
     {
@@ -78,8 +78,8 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/docs",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-07-17T23:09:44.933Z",
-      "latencyMs": 187,
+      "checkedAt": "2026-07-18T00:10:45.213Z",
+      "latencyMs": 2280,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
@@ -95,7 +95,7 @@
             4
           ]
         },
-        "date": "2026-07-17"
+        "date": "2026-07-18"
       }
     },
     {
@@ -105,8 +105,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/dailybread-pwa/",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-07-17T23:09:45.270Z",
-      "latencyMs": 167,
+      "checkedAt": "2026-07-18T00:10:47.494Z",
+      "latencyMs": 62,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -118,8 +118,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/VOTD-URDU-ENGLISH/",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-07-17T23:09:45.271Z",
-      "latencyMs": 147,
+      "checkedAt": "2026-07-18T00:10:47.495Z",
+      "latencyMs": 65,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -131,7 +131,7 @@
       "kind": "protected-api",
       "link": "https://github.com/sgeorge83/bible-widget-backend-clone",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-07-17T23:09:45.438Z",
+      "checkedAt": "2026-07-18T00:10:47.561Z",
       "status": "unknown",
       "message": "Secret BIBLE_CRON_SECRET not configured",
       "note": "Set BIBLE_CRON_SECRET in repo secrets to monitor this endpoint"
@@ -143,7 +143,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-IG/actions/workflows/post-verse.yml",
       "repo": "VOTD-IG",
-      "checkedAt": "2026-07-17T23:09:45.438Z",
+      "checkedAt": "2026-07-18T00:10:47.561Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -164,7 +164,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/dailybread-pwa/actions/workflows/pages.yml",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-07-17T23:09:45.439Z",
+      "checkedAt": "2026-07-18T00:10:47.562Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -184,7 +184,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-URDU-ENGLISH/actions/workflows/pages.yml",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-07-17T23:09:45.440Z",
+      "checkedAt": "2026-07-18T00:10:47.564Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -204,7 +204,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/BibleWidgetApp/actions/workflows/main.yml",
       "repo": "BibleWidgetApp",
-      "checkedAt": "2026-07-17T23:09:45.441Z",
+      "checkedAt": "2026-07-18T00:10:47.565Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -224,7 +224,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/e-geek-bible-themes/actions/workflows/android-build.yml",
       "repo": "e-geek-bible-themes",
-      "checkedAt": "2026-07-17T23:09:45.442Z",
+      "checkedAt": "2026-07-18T00:10:47.566Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -244,7 +244,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/PinkNubes/actions/workflows/build-apk.yml",
       "repo": "PinkNubes",
-      "checkedAt": "2026-07-17T23:09:45.442Z",
+      "checkedAt": "2026-07-18T00:10:47.567Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -264,7 +264,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/LEAD-ENGINE/actions/workflows/generate-leads.yml",
       "repo": "LEAD-ENGINE",
-      "checkedAt": "2026-07-17T23:09:45.443Z",
+      "checkedAt": "2026-07-18T00:10:47.568Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -285,7 +285,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/cvbuilder/actions/workflows/ci.yml",
       "repo": "cvbuilder",
-      "checkedAt": "2026-07-17T23:09:45.444Z",
+      "checkedAt": "2026-07-18T00:10:47.569Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -305,7 +305,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/gnome-schedule/actions/workflows/test.yml",
       "repo": "gnome-schedule",
-      "checkedAt": "2026-07-17T23:09:45.445Z",
+      "checkedAt": "2026-07-18T00:10:47.570Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
