@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-20T00:15:09.708Z",
+  "generatedAt": "2026-07-20T04:09:39.429Z",
   "dubaiDate": "2026-07-20",
   "timezone": "Asia/Dubai",
   "tokenConfigured": true,
   "summary": {
     "overall": "degraded",
     "counts": {
-      "healthy": 10,
+      "healthy": 15,
       "unhealthy": 0,
-      "unknown": 6,
+      "unknown": 1,
       "skipped": 0
     }
   },
@@ -20,8 +20,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-07-20T00:14:51.747Z",
-      "latencyMs": 929,
+      "checkedAt": "2026-07-20T04:09:37.911Z",
+      "latencyMs": 558,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
@@ -38,8 +38,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/rss/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-07-20T00:14:51.809Z",
-      "latencyMs": 892,
+      "checkedAt": "2026-07-20T04:09:37.956Z",
+      "latencyMs": 520,
       "httpStatus": 200,
       "status": "healthy",
       "message": "RSS OK"
@@ -51,8 +51,8 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/votd",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-07-20T00:14:51.810Z",
-      "latencyMs": 1954,
+      "checkedAt": "2026-07-20T04:09:37.957Z",
+      "latencyMs": 631,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
@@ -78,8 +78,8 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/docs",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-07-20T00:14:51.812Z",
-      "latencyMs": 1951,
+      "checkedAt": "2026-07-20T04:09:37.958Z",
+      "latencyMs": 339,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
@@ -105,8 +105,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/dailybread-pwa/",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-07-20T00:14:53.764Z",
-      "latencyMs": 132,
+      "checkedAt": "2026-07-20T04:09:38.588Z",
+      "latencyMs": 291,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -118,8 +118,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/VOTD-URDU-ENGLISH/",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-07-20T00:14:53.766Z",
-      "latencyMs": 127,
+      "checkedAt": "2026-07-20T04:09:38.590Z",
+      "latencyMs": 291,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -131,7 +131,7 @@
       "kind": "protected-api",
       "link": "https://github.com/sgeorge83/bible-widget-backend-clone",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-07-20T00:14:53.897Z",
+      "checkedAt": "2026-07-20T04:09:38.883Z",
       "status": "unknown",
       "message": "Secret BIBLE_CRON_SECRET not configured",
       "note": "Set BIBLE_CRON_SECRET in repo secrets to monitor this endpoint"
@@ -143,9 +143,18 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-IG/actions/workflows/post-verse.yml",
       "repo": "VOTD-IG",
-      "checkedAt": "2026-07-20T00:14:53.897Z",
-      "status": "unknown",
-      "message": "GitHub API 503: {\"message\": \"No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists.\"}\r\n",
+      "checkedAt": "2026-07-20T04:09:38.883Z",
+      "status": "healthy",
+      "message": "Last run succeeded",
+      "lastRun": {
+        "id": 29679190338,
+        "event": "schedule",
+        "status": "completed",
+        "conclusion": "success",
+        "createdAt": "2026-07-19T08:04:29Z",
+        "updatedAt": "2026-07-19T08:04:42Z",
+        "htmlUrl": "https://github.com/sgeorge83/VOTD-IG/actions/runs/29679190338"
+      },
       "scheduleHint": "Daily ~9:35 AM UAE (cron-job.org)"
     },
     {
@@ -155,9 +164,18 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/dailybread-pwa/actions/workflows/pages.yml",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-07-20T00:14:53.899Z",
-      "status": "unknown",
-      "message": "GitHub API 503: {\"message\": \"No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists.\"}\r\n"
+      "checkedAt": "2026-07-20T04:09:38.884Z",
+      "status": "healthy",
+      "message": "Last run succeeded",
+      "lastRun": {
+        "id": 27844536408,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "createdAt": "2026-06-19T19:24:33Z",
+        "updatedAt": "2026-06-19T19:24:48Z",
+        "htmlUrl": "https://github.com/sgeorge83/dailybread-pwa/actions/runs/27844536408"
+      }
     },
     {
       "id": "votd-urdu-pages",
@@ -166,7 +184,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-URDU-ENGLISH/actions/workflows/pages.yml",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-07-20T00:14:53.900Z",
+      "checkedAt": "2026-07-20T04:09:38.885Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -186,9 +204,18 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/BibleWidgetApp/actions/workflows/main.yml",
       "repo": "BibleWidgetApp",
-      "checkedAt": "2026-07-20T00:14:53.901Z",
-      "status": "unknown",
-      "message": "GitHub API 503: {\"message\": \"No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists.\"}\r\n"
+      "checkedAt": "2026-07-20T04:09:38.886Z",
+      "status": "healthy",
+      "message": "Last run succeeded",
+      "lastRun": {
+        "id": 27090899174,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "createdAt": "2026-06-07T11:13:19Z",
+        "updatedAt": "2026-06-07T11:14:36Z",
+        "htmlUrl": "https://github.com/sgeorge83/BibleWidgetApp/actions/runs/27090899174"
+      }
     },
     {
       "id": "bible-themes-build",
@@ -197,7 +224,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/e-geek-bible-themes/actions/workflows/android-build.yml",
       "repo": "e-geek-bible-themes",
-      "checkedAt": "2026-07-20T00:14:53.902Z",
+      "checkedAt": "2026-07-20T04:09:38.886Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -217,7 +244,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/PinkNubes/actions/workflows/build-apk.yml",
       "repo": "PinkNubes",
-      "checkedAt": "2026-07-20T00:14:53.903Z",
+      "checkedAt": "2026-07-20T04:09:38.887Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -237,7 +264,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/LEAD-ENGINE/actions/workflows/generate-leads.yml",
       "repo": "LEAD-ENGINE",
-      "checkedAt": "2026-07-20T00:14:53.904Z",
+      "checkedAt": "2026-07-20T04:09:38.888Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -258,9 +285,18 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/cvbuilder/actions/workflows/ci.yml",
       "repo": "cvbuilder",
-      "checkedAt": "2026-07-20T00:14:53.905Z",
-      "status": "unknown",
-      "message": "GitHub API 503: {\"message\": \"No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists.\"}\r\n"
+      "checkedAt": "2026-07-20T04:09:38.889Z",
+      "status": "healthy",
+      "message": "Last run succeeded",
+      "lastRun": {
+        "id": 27751311987,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "createdAt": "2026-06-18T09:51:31Z",
+        "updatedAt": "2026-06-18T09:51:50Z",
+        "htmlUrl": "https://github.com/sgeorge83/cvbuilder/actions/runs/27751311987"
+      }
     },
     {
       "id": "gnome-schedule-test",
@@ -269,9 +305,18 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/gnome-schedule/actions/workflows/test.yml",
       "repo": "gnome-schedule",
-      "checkedAt": "2026-07-20T00:14:53.906Z",
-      "status": "unknown",
-      "message": "GitHub API 503: {\"message\": \"No server is currently available to service your request. Sorry about that. Please try resubmitting your request and contact us if the problem persists.\"}\r\n"
+      "checkedAt": "2026-07-20T04:09:38.890Z",
+      "status": "healthy",
+      "message": "Last run succeeded",
+      "lastRun": {
+        "id": 27352366728,
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "createdAt": "2026-06-11T14:01:58Z",
+        "updatedAt": "2026-06-11T14:03:04Z",
+        "htmlUrl": "https://github.com/sgeorge83/gnome-schedule/actions/runs/27352366728"
+      }
     }
   ]
 }
