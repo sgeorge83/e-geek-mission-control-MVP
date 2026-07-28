@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T03:37:57.057Z",
+  "generatedAt": "2026-07-28T06:41:39.823Z",
   "dubaiDate": "2026-07-28",
   "timezone": "Asia/Dubai",
   "tokenConfigured": true,
@@ -20,14 +20,14 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-07-28T03:37:53.831Z",
-      "latencyMs": 1298,
+      "checkedAt": "2026-07-28T06:41:37.169Z",
+      "latencyMs": 1057,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
-        "reference": "Psalms 86:15",
-        "generatedAt": "2026-07-27T05:03:47.028Z",
+        "reference": "Ephesians 6:10",
+        "generatedAt": "2026-07-28T05:03:55.289Z",
         "cached": true
       }
     },
@@ -38,8 +38,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/rss/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-07-28T03:37:53.889Z",
-      "latencyMs": 1327,
+      "checkedAt": "2026-07-28T06:41:37.227Z",
+      "latencyMs": 952,
       "httpStatus": 200,
       "status": "healthy",
       "message": "RSS OK"
@@ -51,20 +51,22 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/votd",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-07-28T03:37:53.891Z",
-      "latencyMs": 2282,
+      "checkedAt": "2026-07-28T06:41:37.228Z",
+      "latencyMs": 2004,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "Psalms 86:15",
-          "book_id": 19,
-          "book_name_english": "Psalms",
-          "book_name_urdu": "زبور",
-          "chapter": 86,
+          "english": "Ephesians 6:10-12",
+          "book_id": 49,
+          "book_name_english": "Ephesians",
+          "book_name_urdu": "اِفسِیوں",
+          "chapter": 6,
           "verses": [
-            15
+            10,
+            11,
+            12
           ]
         },
         "date": "2026-07-28"
@@ -77,20 +79,22 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/docs",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-07-28T03:37:53.893Z",
-      "latencyMs": 2026,
+      "checkedAt": "2026-07-28T06:41:37.230Z",
+      "latencyMs": 1919,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "Psalms 86:15",
-          "book_id": 19,
-          "book_name_english": "Psalms",
-          "book_name_urdu": "زبور",
-          "chapter": 86,
+          "english": "Ephesians 6:10-12",
+          "book_id": 49,
+          "book_name_english": "Ephesians",
+          "book_name_urdu": "اِفسِیوں",
+          "chapter": 6,
           "verses": [
-            15
+            10,
+            11,
+            12
           ]
         },
         "date": "2026-07-28"
@@ -103,8 +107,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/dailybread-pwa/",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-07-28T03:37:56.173Z",
-      "latencyMs": 238,
+      "checkedAt": "2026-07-28T06:41:39.234Z",
+      "latencyMs": 122,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -116,8 +120,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/VOTD-URDU-ENGLISH/",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-07-28T03:37:56.175Z",
-      "latencyMs": 230,
+      "checkedAt": "2026-07-28T06:41:39.235Z",
+      "latencyMs": 115,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -129,7 +133,7 @@
       "kind": "protected-api",
       "link": "https://github.com/sgeorge83/bible-widget-backend-clone",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-07-28T03:37:56.412Z",
+      "checkedAt": "2026-07-28T06:41:39.357Z",
       "status": "unknown",
       "message": "Secret BIBLE_CRON_SECRET not configured",
       "note": "Set BIBLE_CRON_SECRET in repo secrets to monitor this endpoint"
@@ -141,17 +145,17 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-IG/actions/workflows/post-verse.yml",
       "repo": "VOTD-IG",
-      "checkedAt": "2026-07-28T03:37:56.412Z",
+      "checkedAt": "2026-07-28T06:41:39.357Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
-        "id": 30254721992,
-        "event": "schedule",
+        "id": 30332074264,
+        "event": "repository_dispatch",
         "status": "completed",
         "conclusion": "success",
-        "createdAt": "2026-07-27T09:37:07Z",
-        "updatedAt": "2026-07-27T09:37:17Z",
-        "htmlUrl": "https://github.com/sgeorge83/VOTD-IG/actions/runs/30254721992"
+        "createdAt": "2026-07-28T05:35:12Z",
+        "updatedAt": "2026-07-28T05:35:50Z",
+        "htmlUrl": "https://github.com/sgeorge83/VOTD-IG/actions/runs/30332074264"
       },
       "scheduleHint": "Daily ~9:35 AM UAE (cron-job.org)"
     },
@@ -162,7 +166,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/dailybread-pwa/actions/workflows/pages.yml",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-07-28T03:37:56.413Z",
+      "checkedAt": "2026-07-28T06:41:39.358Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -182,7 +186,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-URDU-ENGLISH/actions/workflows/pages.yml",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-07-28T03:37:56.414Z",
+      "checkedAt": "2026-07-28T06:41:39.359Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -202,7 +206,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/BibleWidgetApp/actions/workflows/main.yml",
       "repo": "BibleWidgetApp",
-      "checkedAt": "2026-07-28T03:37:56.416Z",
+      "checkedAt": "2026-07-28T06:41:39.360Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -222,7 +226,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/e-geek-bible-themes/actions/workflows/android-build.yml",
       "repo": "e-geek-bible-themes",
-      "checkedAt": "2026-07-28T03:37:56.417Z",
+      "checkedAt": "2026-07-28T06:41:39.361Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -242,7 +246,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/PinkNubes/actions/workflows/build-apk.yml",
       "repo": "PinkNubes",
-      "checkedAt": "2026-07-28T03:37:56.418Z",
+      "checkedAt": "2026-07-28T06:41:39.362Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -262,7 +266,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/LEAD-ENGINE/actions/workflows/generate-leads.yml",
       "repo": "LEAD-ENGINE",
-      "checkedAt": "2026-07-28T03:37:56.419Z",
+      "checkedAt": "2026-07-28T06:41:39.363Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -283,7 +287,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/cvbuilder/actions/workflows/ci.yml",
       "repo": "cvbuilder",
-      "checkedAt": "2026-07-28T03:37:56.420Z",
+      "checkedAt": "2026-07-28T06:41:39.364Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -303,7 +307,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/gnome-schedule/actions/workflows/test.yml",
       "repo": "gnome-schedule",
-      "checkedAt": "2026-07-28T03:37:56.421Z",
+      "checkedAt": "2026-07-28T06:41:39.365Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
