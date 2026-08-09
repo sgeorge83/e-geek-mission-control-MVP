@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T04:37:54.562Z",
+  "generatedAt": "2026-08-09T05:58:45.804Z",
   "dubaiDate": "2026-08-09",
   "timezone": "Asia/Dubai",
   "tokenConfigured": true,
@@ -20,14 +20,14 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-08-09T04:37:51.856Z",
-      "latencyMs": 936,
+      "checkedAt": "2026-08-09T05:58:43.155Z",
+      "latencyMs": 109,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
-        "reference": "2 Corinthians 12:9",
-        "generatedAt": "2026-08-08T05:05:14.039Z",
+        "reference": "Isaiah 46:9",
+        "generatedAt": "2026-08-09T05:03:40.084Z",
         "cached": true
       }
     },
@@ -38,8 +38,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/rss/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-08-09T04:37:51.914Z",
-      "latencyMs": 924,
+      "checkedAt": "2026-08-09T05:58:43.215Z",
+      "latencyMs": 314,
       "httpStatus": 200,
       "status": "healthy",
       "message": "RSS OK"
@@ -51,20 +51,22 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/votd",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-08-09T04:37:51.915Z",
-      "latencyMs": 1926,
+      "checkedAt": "2026-08-09T05:58:43.216Z",
+      "latencyMs": 1898,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "2 Corinthians 12:9",
-          "book_id": 47,
-          "book_name_english": "2 Corinthians",
-          "book_name_urdu": "۲-کُرِنتِھیوں",
-          "chapter": 12,
+          "english": "Isaiah 46:9-11",
+          "book_id": 23,
+          "book_name_english": "Isaiah",
+          "book_name_urdu": "یسعیاہ",
+          "chapter": 46,
           "verses": [
-            9
+            9,
+            10,
+            11
           ]
         },
         "date": "2026-08-09"
@@ -77,20 +79,22 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/docs",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-08-09T04:37:51.917Z",
-      "latencyMs": 1925,
+      "checkedAt": "2026-08-09T05:58:43.218Z",
+      "latencyMs": 1898,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "2 Corinthians 12:9",
-          "book_id": 47,
-          "book_name_english": "2 Corinthians",
-          "book_name_urdu": "۲-کُرِنتِھیوں",
-          "chapter": 12,
+          "english": "Isaiah 46:9-11",
+          "book_id": 23,
+          "book_name_english": "Isaiah",
+          "book_name_urdu": "یسعیاہ",
+          "chapter": 46,
           "verses": [
-            9
+            9,
+            10,
+            11
           ]
         },
         "date": "2026-08-09"
@@ -103,8 +107,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/dailybread-pwa/",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-08-09T04:37:53.843Z",
-      "latencyMs": 160,
+      "checkedAt": "2026-08-09T05:58:45.118Z",
+      "latencyMs": 126,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -116,8 +120,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/VOTD-URDU-ENGLISH/",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-08-09T04:37:53.844Z",
-      "latencyMs": 162,
+      "checkedAt": "2026-08-09T05:58:45.120Z",
+      "latencyMs": 145,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -129,7 +133,7 @@
       "kind": "protected-api",
       "link": "https://github.com/sgeorge83/bible-widget-backend-clone",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-08-09T04:37:54.007Z",
+      "checkedAt": "2026-08-09T05:58:45.266Z",
       "status": "unknown",
       "message": "Secret BIBLE_CRON_SECRET not configured",
       "note": "Set BIBLE_CRON_SECRET in repo secrets to monitor this endpoint"
@@ -141,17 +145,17 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-IG/actions/workflows/post-verse.yml",
       "repo": "VOTD-IG",
-      "checkedAt": "2026-08-09T04:37:54.007Z",
+      "checkedAt": "2026-08-09T05:58:45.266Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
-        "id": 31244389828,
-        "event": "schedule",
+        "id": 31297009368,
+        "event": "repository_dispatch",
         "status": "completed",
         "conclusion": "success",
-        "createdAt": "2026-08-08T06:38:51Z",
-        "updatedAt": "2026-08-08T06:39:04Z",
-        "htmlUrl": "https://github.com/sgeorge83/VOTD-IG/actions/runs/31244389828"
+        "createdAt": "2026-08-09T05:35:12Z",
+        "updatedAt": "2026-08-09T05:35:49Z",
+        "htmlUrl": "https://github.com/sgeorge83/VOTD-IG/actions/runs/31297009368"
       },
       "scheduleHint": "Daily ~9:35 AM UAE (cron-job.org)"
     },
@@ -162,7 +166,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/dailybread-pwa/actions/workflows/pages.yml",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-08-09T04:37:54.008Z",
+      "checkedAt": "2026-08-09T05:58:45.267Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -182,7 +186,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-URDU-ENGLISH/actions/workflows/pages.yml",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-08-09T04:37:54.010Z",
+      "checkedAt": "2026-08-09T05:58:45.269Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -202,7 +206,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/BibleWidgetApp/actions/workflows/main.yml",
       "repo": "BibleWidgetApp",
-      "checkedAt": "2026-08-09T04:37:54.011Z",
+      "checkedAt": "2026-08-09T05:58:45.270Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -222,7 +226,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/e-geek-bible-themes/actions/workflows/android-build.yml",
       "repo": "e-geek-bible-themes",
-      "checkedAt": "2026-08-09T04:37:54.012Z",
+      "checkedAt": "2026-08-09T05:58:45.271Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -242,7 +246,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/PinkNubes/actions/workflows/build-apk.yml",
       "repo": "PinkNubes",
-      "checkedAt": "2026-08-09T04:37:54.013Z",
+      "checkedAt": "2026-08-09T05:58:45.272Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -262,7 +266,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/LEAD-ENGINE/actions/workflows/generate-leads.yml",
       "repo": "LEAD-ENGINE",
-      "checkedAt": "2026-08-09T04:37:54.014Z",
+      "checkedAt": "2026-08-09T05:58:45.273Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -283,7 +287,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/cvbuilder/actions/workflows/ci.yml",
       "repo": "cvbuilder",
-      "checkedAt": "2026-08-09T04:37:54.015Z",
+      "checkedAt": "2026-08-09T05:58:45.274Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -303,7 +307,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/gnome-schedule/actions/workflows/test.yml",
       "repo": "gnome-schedule",
-      "checkedAt": "2026-08-09T04:37:54.016Z",
+      "checkedAt": "2026-08-09T05:58:45.275Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
