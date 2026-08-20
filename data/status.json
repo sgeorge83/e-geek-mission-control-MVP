@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T04:54:38.910Z",
+  "generatedAt": "2026-08-20T05:47:25.027Z",
   "dubaiDate": "2026-08-20",
   "timezone": "Asia/Dubai",
   "tokenConfigured": true,
@@ -20,8 +20,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-08-20T04:54:36.203Z",
-      "latencyMs": 879,
+      "checkedAt": "2026-08-20T05:47:22.405Z",
+      "latencyMs": 172,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
@@ -38,8 +38,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/rss/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-08-20T04:54:36.262Z",
-      "latencyMs": 839,
+      "checkedAt": "2026-08-20T05:47:22.463Z",
+      "latencyMs": 123,
       "httpStatus": 200,
       "status": "healthy",
       "message": "RSS OK"
@@ -51,20 +51,20 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/votd",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-08-20T04:54:36.263Z",
-      "latencyMs": 1882,
+      "checkedAt": "2026-08-20T05:47:22.465Z",
+      "latencyMs": 2054,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "Romans 8:28",
+          "english": "Romans 8:32",
           "book_id": 45,
           "book_name_english": "Romans",
           "book_name_urdu": "رومیوں",
           "chapter": 8,
           "verses": [
-            28
+            32
           ]
         },
         "date": "2026-08-20"
@@ -77,20 +77,20 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/docs",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-08-20T04:54:36.265Z",
-      "latencyMs": 2153,
+      "checkedAt": "2026-08-20T05:47:22.466Z",
+      "latencyMs": 2054,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "Romans 8:28",
+          "english": "Romans 8:32",
           "book_id": 45,
           "book_name_english": "Romans",
           "book_name_urdu": "رومیوں",
           "chapter": 8,
           "verses": [
-            28
+            32
           ]
         },
         "date": "2026-08-20"
@@ -103,8 +103,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/dailybread-pwa/",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-08-20T04:54:38.418Z",
-      "latencyMs": 68,
+      "checkedAt": "2026-08-20T05:47:24.521Z",
+      "latencyMs": 48,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -116,8 +116,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/VOTD-URDU-ENGLISH/",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-08-20T04:54:38.420Z",
-      "latencyMs": 60,
+      "checkedAt": "2026-08-20T05:47:24.522Z",
+      "latencyMs": 54,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -129,7 +129,7 @@
       "kind": "protected-api",
       "link": "https://github.com/sgeorge83/bible-widget-backend-clone",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-08-20T04:54:38.487Z",
+      "checkedAt": "2026-08-20T05:47:24.576Z",
       "status": "unknown",
       "message": "Secret BIBLE_CRON_SECRET not configured",
       "note": "Set BIBLE_CRON_SECRET in repo secrets to monitor this endpoint"
@@ -141,17 +141,17 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-IG/actions/workflows/post-verse.yml",
       "repo": "VOTD-IG",
-      "checkedAt": "2026-08-20T04:54:38.488Z",
+      "checkedAt": "2026-08-20T05:47:24.576Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
-        "id": 32223743818,
-        "event": "schedule",
+        "id": 32336161937,
+        "event": "repository_dispatch",
         "status": "completed",
         "conclusion": "success",
-        "createdAt": "2026-08-19T06:31:04Z",
-        "updatedAt": "2026-08-19T06:31:12Z",
-        "htmlUrl": "https://github.com/sgeorge83/VOTD-IG/actions/runs/32223743818"
+        "createdAt": "2026-08-20T05:35:11Z",
+        "updatedAt": "2026-08-20T05:35:48Z",
+        "htmlUrl": "https://github.com/sgeorge83/VOTD-IG/actions/runs/32336161937"
       },
       "scheduleHint": "Daily ~9:35 AM UAE (cron-job.org)"
     },
@@ -162,7 +162,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/dailybread-pwa/actions/workflows/pages.yml",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-08-20T04:54:38.489Z",
+      "checkedAt": "2026-08-20T05:47:24.578Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -182,7 +182,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-URDU-ENGLISH/actions/workflows/pages.yml",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-08-20T04:54:38.490Z",
+      "checkedAt": "2026-08-20T05:47:24.579Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -202,7 +202,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/BibleWidgetApp/actions/workflows/main.yml",
       "repo": "BibleWidgetApp",
-      "checkedAt": "2026-08-20T04:54:38.491Z",
+      "checkedAt": "2026-08-20T05:47:24.580Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -222,7 +222,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/e-geek-bible-themes/actions/workflows/android-build.yml",
       "repo": "e-geek-bible-themes",
-      "checkedAt": "2026-08-20T04:54:38.492Z",
+      "checkedAt": "2026-08-20T05:47:24.581Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -242,7 +242,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/PinkNubes/actions/workflows/build-apk.yml",
       "repo": "PinkNubes",
-      "checkedAt": "2026-08-20T04:54:38.493Z",
+      "checkedAt": "2026-08-20T05:47:24.582Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -262,7 +262,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/LEAD-ENGINE/actions/workflows/generate-leads.yml",
       "repo": "LEAD-ENGINE",
-      "checkedAt": "2026-08-20T04:54:38.494Z",
+      "checkedAt": "2026-08-20T05:47:24.583Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -283,7 +283,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/cvbuilder/actions/workflows/ci.yml",
       "repo": "cvbuilder",
-      "checkedAt": "2026-08-20T04:54:38.495Z",
+      "checkedAt": "2026-08-20T05:47:24.584Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
@@ -303,7 +303,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/gnome-schedule/actions/workflows/test.yml",
       "repo": "gnome-schedule",
-      "checkedAt": "2026-08-20T04:54:38.496Z",
+      "checkedAt": "2026-08-20T05:47:24.585Z",
       "status": "healthy",
       "message": "Last run succeeded",
       "lastRun": {
