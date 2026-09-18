@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T00:23:23.422Z",
+  "generatedAt": "2026-09-18T05:57:17.885Z",
   "dubaiDate": "2026-09-18",
   "timezone": "Asia/Dubai",
   "tokenConfigured": true,
@@ -20,14 +20,14 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-09-18T00:23:21.060Z",
-      "latencyMs": 310,
+      "checkedAt": "2026-09-18T05:57:15.404Z",
+      "latencyMs": 168,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
-        "reference": "Galatians 2:20",
-        "generatedAt": "2026-09-17T05:00:13.062Z",
+        "reference": "Galatians 5:22-25",
+        "generatedAt": "2026-09-18T05:00:04.074Z",
         "cached": true
       }
     },
@@ -38,8 +38,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/rss/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-09-18T00:23:21.107Z",
-      "latencyMs": 196,
+      "checkedAt": "2026-09-18T05:57:15.440Z",
+      "latencyMs": 373,
       "httpStatus": 200,
       "status": "healthy",
       "message": "RSS OK"
@@ -51,20 +51,23 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/votd",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-09-18T00:23:21.108Z",
-      "latencyMs": 2028,
+      "checkedAt": "2026-09-18T05:57:15.441Z",
+      "latencyMs": 2086,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "Galatians 2:20",
+          "english": "Galatians 5:22-25",
           "book_id": 48,
           "book_name_english": "Galatians",
           "book_name_urdu": "گلتیوں",
-          "chapter": 2,
+          "chapter": 5,
           "verses": [
-            20
+            22,
+            23,
+            24,
+            25
           ]
         },
         "date": "2026-09-18"
@@ -77,20 +80,23 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/docs",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-09-18T00:23:21.109Z",
-      "latencyMs": 2050,
+      "checkedAt": "2026-09-18T05:57:15.442Z",
+      "latencyMs": 2088,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "Galatians 2:20",
+          "english": "Galatians 5:22-25",
           "book_id": 48,
           "book_name_english": "Galatians",
           "book_name_urdu": "گلتیوں",
-          "chapter": 2,
+          "chapter": 5,
           "verses": [
-            20
+            22,
+            23,
+            24,
+            25
           ]
         },
         "date": "2026-09-18"
@@ -103,8 +109,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/dailybread-pwa/",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-09-18T00:23:23.160Z",
-      "latencyMs": 128,
+      "checkedAt": "2026-09-18T05:57:17.531Z",
+      "latencyMs": 158,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -116,8 +122,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/VOTD-URDU-ENGLISH/",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-09-18T00:23:23.161Z",
-      "latencyMs": 126,
+      "checkedAt": "2026-09-18T05:57:17.532Z",
+      "latencyMs": 144,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -129,7 +135,7 @@
       "kind": "protected-api",
       "link": "https://github.com/sgeorge83/bible-widget-backend-clone",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-09-18T00:23:23.289Z",
+      "checkedAt": "2026-09-18T05:57:17.690Z",
       "status": "unknown",
       "message": "Secret BIBLE_CRON_SECRET not configured",
       "note": "Set BIBLE_CRON_SECRET in repo secrets to monitor this endpoint"
@@ -141,7 +147,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-IG/actions/workflows/post-verse.yml",
       "repo": "VOTD-IG",
-      "checkedAt": "2026-09-18T00:23:23.289Z",
+      "checkedAt": "2026-09-18T05:57:17.690Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}",
       "scheduleHint": "Daily ~9:35 AM UAE (cron-job.org)"
@@ -153,7 +159,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/dailybread-pwa/actions/workflows/pages.yml",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-09-18T00:23:23.290Z",
+      "checkedAt": "2026-09-18T05:57:17.691Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -164,7 +170,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-URDU-ENGLISH/actions/workflows/pages.yml",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-09-18T00:23:23.291Z",
+      "checkedAt": "2026-09-18T05:57:17.692Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -175,7 +181,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/BibleWidgetApp/actions/workflows/main.yml",
       "repo": "BibleWidgetApp",
-      "checkedAt": "2026-09-18T00:23:23.292Z",
+      "checkedAt": "2026-09-18T05:57:17.693Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -186,7 +192,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/e-geek-bible-themes/actions/workflows/android-build.yml",
       "repo": "e-geek-bible-themes",
-      "checkedAt": "2026-09-18T00:23:23.293Z",
+      "checkedAt": "2026-09-18T05:57:17.693Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -197,7 +203,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/PinkNubes/actions/workflows/build-apk.yml",
       "repo": "PinkNubes",
-      "checkedAt": "2026-09-18T00:23:23.294Z",
+      "checkedAt": "2026-09-18T05:57:17.694Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -208,7 +214,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/LEAD-ENGINE/actions/workflows/generate-leads.yml",
       "repo": "LEAD-ENGINE",
-      "checkedAt": "2026-09-18T00:23:23.294Z",
+      "checkedAt": "2026-09-18T05:57:17.695Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}",
       "scheduleHint": "Manual (workflow_dispatch)"
@@ -220,7 +226,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/cvbuilder/actions/workflows/ci.yml",
       "repo": "cvbuilder",
-      "checkedAt": "2026-09-18T00:23:23.295Z",
+      "checkedAt": "2026-09-18T05:57:17.695Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -231,7 +237,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/gnome-schedule/actions/workflows/test.yml",
       "repo": "gnome-schedule",
-      "checkedAt": "2026-09-18T00:23:23.296Z",
+      "checkedAt": "2026-09-18T05:57:17.696Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     }
