@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T01:11:44.710Z",
+  "generatedAt": "2026-09-20T06:21:28.377Z",
   "dubaiDate": "2026-09-20",
   "timezone": "Asia/Dubai",
   "tokenConfigured": true,
@@ -20,14 +20,14 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-09-20T01:11:41.976Z",
-      "latencyMs": 398,
+      "checkedAt": "2026-09-20T06:21:25.973Z",
+      "latencyMs": 167,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
-        "reference": "Psalms 9:9-10",
-        "generatedAt": "2026-09-19T05:00:38.705Z",
+        "reference": "Psalms 16:11",
+        "generatedAt": "2026-09-20T05:00:50.326Z",
         "cached": true
       }
     },
@@ -38,8 +38,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/rss/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-09-20T01:11:42.022Z",
-      "latencyMs": 1037,
+      "checkedAt": "2026-09-20T06:21:26.032Z",
+      "latencyMs": 326,
       "httpStatus": 200,
       "status": "healthy",
       "message": "RSS OK"
@@ -51,21 +51,20 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/votd",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-09-20T01:11:42.023Z",
-      "latencyMs": 2194,
+      "checkedAt": "2026-09-20T06:21:26.033Z",
+      "latencyMs": 2122,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "Psalms 9:9-10",
+          "english": "Psalms 16:11",
           "book_id": 19,
           "book_name_english": "Psalms",
           "book_name_urdu": "زبور",
-          "chapter": 9,
+          "chapter": 16,
           "verses": [
-            9,
-            10
+            11
           ]
         },
         "date": "2026-09-20"
@@ -78,21 +77,20 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/docs",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-09-20T01:11:42.024Z",
-      "latencyMs": 2193,
+      "checkedAt": "2026-09-20T06:21:26.035Z",
+      "latencyMs": 2119,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "Psalms 9:9-10",
+          "english": "Psalms 16:11",
           "book_id": 19,
           "book_name_english": "Psalms",
           "book_name_urdu": "زبور",
-          "chapter": 9,
+          "chapter": 16,
           "verses": [
-            9,
-            10
+            11
           ]
         },
         "date": "2026-09-20"
@@ -105,8 +103,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/dailybread-pwa/",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-09-20T01:11:44.218Z",
-      "latencyMs": 306,
+      "checkedAt": "2026-09-20T06:21:28.156Z",
+      "latencyMs": 126,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -118,8 +116,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/VOTD-URDU-ENGLISH/",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-09-20T01:11:44.220Z",
-      "latencyMs": 278,
+      "checkedAt": "2026-09-20T06:21:28.157Z",
+      "latencyMs": 116,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -131,7 +129,7 @@
       "kind": "protected-api",
       "link": "https://github.com/sgeorge83/bible-widget-backend-clone",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-09-20T01:11:44.526Z",
+      "checkedAt": "2026-09-20T06:21:28.283Z",
       "status": "unknown",
       "message": "Secret BIBLE_CRON_SECRET not configured",
       "note": "Set BIBLE_CRON_SECRET in repo secrets to monitor this endpoint"
@@ -143,7 +141,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-IG/actions/workflows/post-verse.yml",
       "repo": "VOTD-IG",
-      "checkedAt": "2026-09-20T01:11:44.526Z",
+      "checkedAt": "2026-09-20T06:21:28.283Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}",
       "scheduleHint": "Daily ~9:35 AM UAE (cron-job.org)"
@@ -155,7 +153,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/dailybread-pwa/actions/workflows/pages.yml",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-09-20T01:11:44.527Z",
+      "checkedAt": "2026-09-20T06:21:28.284Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -166,7 +164,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-URDU-ENGLISH/actions/workflows/pages.yml",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-09-20T01:11:44.528Z",
+      "checkedAt": "2026-09-20T06:21:28.285Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -177,7 +175,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/BibleWidgetApp/actions/workflows/main.yml",
       "repo": "BibleWidgetApp",
-      "checkedAt": "2026-09-20T01:11:44.529Z",
+      "checkedAt": "2026-09-20T06:21:28.286Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -188,7 +186,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/e-geek-bible-themes/actions/workflows/android-build.yml",
       "repo": "e-geek-bible-themes",
-      "checkedAt": "2026-09-20T01:11:44.529Z",
+      "checkedAt": "2026-09-20T06:21:28.287Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -199,7 +197,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/PinkNubes/actions/workflows/build-apk.yml",
       "repo": "PinkNubes",
-      "checkedAt": "2026-09-20T01:11:44.530Z",
+      "checkedAt": "2026-09-20T06:21:28.288Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -210,7 +208,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/LEAD-ENGINE/actions/workflows/generate-leads.yml",
       "repo": "LEAD-ENGINE",
-      "checkedAt": "2026-09-20T01:11:44.531Z",
+      "checkedAt": "2026-09-20T06:21:28.289Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}",
       "scheduleHint": "Manual (workflow_dispatch)"
@@ -222,7 +220,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/cvbuilder/actions/workflows/ci.yml",
       "repo": "cvbuilder",
-      "checkedAt": "2026-09-20T01:11:44.532Z",
+      "checkedAt": "2026-09-20T06:21:28.290Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -233,7 +231,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/gnome-schedule/actions/workflows/test.yml",
       "repo": "gnome-schedule",
-      "checkedAt": "2026-09-20T01:11:44.532Z",
+      "checkedAt": "2026-09-20T06:21:28.291Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     }
