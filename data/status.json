@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T02:12:09.986Z",
+  "generatedAt": "2026-10-09T09:11:39.658Z",
   "dubaiDate": "2026-10-09",
   "timezone": "Asia/Dubai",
   "tokenConfigured": true,
@@ -20,14 +20,14 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-10-09T02:12:07.338Z",
-      "latencyMs": 1011,
+      "checkedAt": "2026-10-09T09:11:37.464Z",
+      "latencyMs": 1025,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
-        "reference": "Deuteronomy 6:4-7",
-        "generatedAt": "2026-10-08T05:00:38.364Z",
+        "reference": "Hebrews 12:1",
+        "generatedAt": "2026-10-09T05:00:15.756Z",
         "cached": true
       }
     },
@@ -38,8 +38,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/rss/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-10-09T02:12:07.383Z",
-      "latencyMs": 938,
+      "checkedAt": "2026-10-09T09:11:37.500Z",
+      "latencyMs": 364,
       "httpStatus": 200,
       "status": "healthy",
       "message": "RSS OK"
@@ -51,23 +51,20 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/votd",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-10-09T02:12:07.384Z",
-      "latencyMs": 2299,
+      "checkedAt": "2026-10-09T09:11:37.501Z",
+      "latencyMs": 1868,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "Deuteronomy 6:4-7",
-          "book_id": 5,
-          "book_name_english": "Deuteronomy",
-          "book_name_urdu": "اِستِثنا",
-          "chapter": 6,
+          "english": "Hebrews 12:1",
+          "book_id": 58,
+          "book_name_english": "Hebrews",
+          "book_name_urdu": "عبرانیوں",
+          "chapter": 12,
           "verses": [
-            4,
-            5,
-            6,
-            7
+            1
           ]
         },
         "date": "2026-10-09"
@@ -80,23 +77,20 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/docs",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-10-09T02:12:07.385Z",
-      "latencyMs": 2298,
+      "checkedAt": "2026-10-09T09:11:37.502Z",
+      "latencyMs": 1866,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
       "summary": {
         "reference": {
-          "english": "Deuteronomy 6:4-7",
-          "book_id": 5,
-          "book_name_english": "Deuteronomy",
-          "book_name_urdu": "اِستِثنا",
-          "chapter": 6,
+          "english": "Hebrews 12:1",
+          "book_id": 58,
+          "book_name_english": "Hebrews",
+          "book_name_urdu": "عبرانیوں",
+          "chapter": 12,
           "verses": [
-            4,
-            5,
-            6,
-            7
+            1
           ]
         },
         "date": "2026-10-09"
@@ -109,8 +103,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/dailybread-pwa/",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-10-09T02:12:09.685Z",
-      "latencyMs": 137,
+      "checkedAt": "2026-10-09T09:11:39.370Z",
+      "latencyMs": 155,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -122,8 +116,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/VOTD-URDU-ENGLISH/",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-10-09T02:12:09.686Z",
-      "latencyMs": 148,
+      "checkedAt": "2026-10-09T09:11:39.371Z",
+      "latencyMs": 116,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -135,7 +129,7 @@
       "kind": "protected-api",
       "link": "https://github.com/sgeorge83/bible-widget-backend-clone",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-10-09T02:12:09.835Z",
+      "checkedAt": "2026-10-09T09:11:39.526Z",
       "status": "unknown",
       "message": "Secret BIBLE_CRON_SECRET not configured",
       "note": "Set BIBLE_CRON_SECRET in repo secrets to monitor this endpoint"
@@ -147,7 +141,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-IG/actions/workflows/post-verse.yml",
       "repo": "VOTD-IG",
-      "checkedAt": "2026-10-09T02:12:09.835Z",
+      "checkedAt": "2026-10-09T09:11:39.526Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}",
       "scheduleHint": "Daily ~9:35 AM UAE (cron-job.org)"
@@ -159,7 +153,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/dailybread-pwa/actions/workflows/pages.yml",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-10-09T02:12:09.836Z",
+      "checkedAt": "2026-10-09T09:11:39.527Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -170,7 +164,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-URDU-ENGLISH/actions/workflows/pages.yml",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-10-09T02:12:09.837Z",
+      "checkedAt": "2026-10-09T09:11:39.528Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -181,7 +175,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/BibleWidgetApp/actions/workflows/main.yml",
       "repo": "BibleWidgetApp",
-      "checkedAt": "2026-10-09T02:12:09.838Z",
+      "checkedAt": "2026-10-09T09:11:39.528Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -192,7 +186,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/e-geek-bible-themes/actions/workflows/android-build.yml",
       "repo": "e-geek-bible-themes",
-      "checkedAt": "2026-10-09T02:12:09.839Z",
+      "checkedAt": "2026-10-09T09:11:39.529Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -203,7 +197,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/PinkNubes/actions/workflows/build-apk.yml",
       "repo": "PinkNubes",
-      "checkedAt": "2026-10-09T02:12:09.840Z",
+      "checkedAt": "2026-10-09T09:11:39.529Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -214,7 +208,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/LEAD-ENGINE/actions/workflows/generate-leads.yml",
       "repo": "LEAD-ENGINE",
-      "checkedAt": "2026-10-09T02:12:09.841Z",
+      "checkedAt": "2026-10-09T09:11:39.530Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}",
       "scheduleHint": "Manual (workflow_dispatch)"
@@ -226,7 +220,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/cvbuilder/actions/workflows/ci.yml",
       "repo": "cvbuilder",
-      "checkedAt": "2026-10-09T02:12:09.841Z",
+      "checkedAt": "2026-10-09T09:11:39.530Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -237,7 +231,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/gnome-schedule/actions/workflows/test.yml",
       "repo": "gnome-schedule",
-      "checkedAt": "2026-10-09T02:12:09.842Z",
+      "checkedAt": "2026-10-09T09:11:39.531Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     }
