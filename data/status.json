@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T21:42:03.417Z",
+  "generatedAt": "2026-10-10T01:45:45.601Z",
   "dubaiDate": "2026-10-10",
   "timezone": "Asia/Dubai",
   "tokenConfigured": true,
@@ -20,8 +20,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-10-09T21:42:00.653Z",
-      "latencyMs": 113,
+      "checkedAt": "2026-10-10T01:45:43.317Z",
+      "latencyMs": 131,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
@@ -38,8 +38,8 @@
       "kind": "api",
       "link": "https://bible-widget-backend.vercel.app/api/rss/morning",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-10-09T21:42:00.713Z",
-      "latencyMs": 338,
+      "checkedAt": "2026-10-10T01:45:43.376Z",
+      "latencyMs": 181,
       "httpStatus": 200,
       "status": "healthy",
       "message": "RSS OK"
@@ -51,8 +51,8 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/votd",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-10-09T21:42:00.714Z",
-      "latencyMs": 2316,
+      "checkedAt": "2026-10-10T01:45:43.377Z",
+      "latencyMs": 1958,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
@@ -67,7 +67,7 @@
             1
           ]
         },
-        "date": "2026-10-09"
+        "date": "2026-10-10"
       }
     },
     {
@@ -77,8 +77,8 @@
       "kind": "api",
       "link": "https://urdu-bible-api.vercel.app/docs",
       "repo": "urdu-bible-api",
-      "checkedAt": "2026-10-09T21:42:00.716Z",
-      "latencyMs": 2311,
+      "checkedAt": "2026-10-10T01:45:43.378Z",
+      "latencyMs": 2018,
       "httpStatus": 200,
       "status": "healthy",
       "message": "OK",
@@ -93,7 +93,7 @@
             1
           ]
         },
-        "date": "2026-10-09"
+        "date": "2026-10-10"
       }
     },
     {
@@ -103,8 +103,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/dailybread-pwa/",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-10-09T21:42:03.030Z",
-      "latencyMs": 124,
+      "checkedAt": "2026-10-10T01:45:45.397Z",
+      "latencyMs": 107,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -116,8 +116,8 @@
       "kind": "site",
       "link": "https://sgeorge83.github.io/VOTD-URDU-ENGLISH/",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-10-09T21:42:03.031Z",
-      "latencyMs": 244,
+      "checkedAt": "2026-10-10T01:45:45.399Z",
+      "latencyMs": 104,
       "httpStatus": 200,
       "status": "healthy",
       "message": "Site reachable"
@@ -129,7 +129,7 @@
       "kind": "protected-api",
       "link": "https://github.com/sgeorge83/bible-widget-backend-clone",
       "repo": "bible-widget-backend-clone",
-      "checkedAt": "2026-10-09T21:42:03.276Z",
+      "checkedAt": "2026-10-10T01:45:45.505Z",
       "status": "unknown",
       "message": "Secret BIBLE_CRON_SECRET not configured",
       "note": "Set BIBLE_CRON_SECRET in repo secrets to monitor this endpoint"
@@ -141,7 +141,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-IG/actions/workflows/post-verse.yml",
       "repo": "VOTD-IG",
-      "checkedAt": "2026-10-09T21:42:03.276Z",
+      "checkedAt": "2026-10-10T01:45:45.505Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}",
       "scheduleHint": "Daily ~9:35 AM UAE (cron-job.org)"
@@ -153,7 +153,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/dailybread-pwa/actions/workflows/pages.yml",
       "repo": "dailybread-pwa",
-      "checkedAt": "2026-10-09T21:42:03.278Z",
+      "checkedAt": "2026-10-10T01:45:45.507Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -164,7 +164,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/VOTD-URDU-ENGLISH/actions/workflows/pages.yml",
       "repo": "VOTD-URDU-ENGLISH",
-      "checkedAt": "2026-10-09T21:42:03.279Z",
+      "checkedAt": "2026-10-10T01:45:45.508Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -175,7 +175,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/BibleWidgetApp/actions/workflows/main.yml",
       "repo": "BibleWidgetApp",
-      "checkedAt": "2026-10-09T21:42:03.280Z",
+      "checkedAt": "2026-10-10T01:45:45.509Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -186,7 +186,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/e-geek-bible-themes/actions/workflows/android-build.yml",
       "repo": "e-geek-bible-themes",
-      "checkedAt": "2026-10-09T21:42:03.281Z",
+      "checkedAt": "2026-10-10T01:45:45.510Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -197,7 +197,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/PinkNubes/actions/workflows/build-apk.yml",
       "repo": "PinkNubes",
-      "checkedAt": "2026-10-09T21:42:03.282Z",
+      "checkedAt": "2026-10-10T01:45:45.511Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -208,7 +208,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/LEAD-ENGINE/actions/workflows/generate-leads.yml",
       "repo": "LEAD-ENGINE",
-      "checkedAt": "2026-10-09T21:42:03.283Z",
+      "checkedAt": "2026-10-10T01:45:45.512Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}",
       "scheduleHint": "Manual (workflow_dispatch)"
@@ -220,7 +220,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/cvbuilder/actions/workflows/ci.yml",
       "repo": "cvbuilder",
-      "checkedAt": "2026-10-09T21:42:03.284Z",
+      "checkedAt": "2026-10-10T01:45:45.513Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     },
@@ -231,7 +231,7 @@
       "kind": "workflow",
       "link": "https://github.com/sgeorge83/gnome-schedule/actions/workflows/test.yml",
       "repo": "gnome-schedule",
-      "checkedAt": "2026-10-09T21:42:03.285Z",
+      "checkedAt": "2026-10-10T01:45:45.514Z",
       "status": "unknown",
       "message": "GitHub API 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
     }
